@@ -1,0 +1,60 @@
+/* Geral */
+body {
+    margin: 0px;
+    background-color: aqua;
+}
+.menu li {
+    display: inline-flex;
+    padding: 20px;
+    margin: 10px;
+}
+.menu li a {
+   text-decoration: none; 
+   background-color: rgb(106, 88, 119);
+   padding: 15px;
+   border-radius: 20px;
+   color: red;
+   font-size: 20px;
+}
+.menu li a:hover {
+    background-color: lightcoral;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+
+/* Livro */
+img {
+    border-radius: 20px;
+}
+ .container { /* usada no Contado */
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 30px;
+}
+.video {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* Contato */
+form {
+    margin-left: 30px;
+}
+.rede-social {
+    padding: 30px;
+    width: 50px;
+    margin: 0px;
+}
+.mE {
+    margin-left: 120px;
+}
