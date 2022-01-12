@@ -34,7 +34,7 @@ h2 {
 img {
     border-radius: 20px;
 }
-.container {
+ .container { /* usada no Contado */
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -50,11 +50,11 @@ img {
 form {
     margin-left: 30px;
 }
-.maps {
-    margin-left: 450px;
-}
 .rede-social {
     padding: 30px;
     width: 50px;
     margin: 0px;
+}
+.mE {
+    margin-left: 120px;
 }
