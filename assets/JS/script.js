@@ -14,6 +14,7 @@ function validarNome(){
     if (nome.value.length < 3) {
         txtNome.innerHTML = 'Nome Inválido'
         txtNome.style.color = 'red'
+        nomeOk = false
     }else {
         txtNome.innerHTML = 'Nome Válido'
         txtNome.style.color = 'green'
@@ -26,6 +27,7 @@ function validarEmail(){
     if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
         txtEmail.innerHTML = 'Email Inválido'
         txtEmail.style.color = 'red'
+        emailOk = false
     }else {
         txtEmail.innerHTML = 'Email Válido'
         txtEmail.style.color = 'green'
